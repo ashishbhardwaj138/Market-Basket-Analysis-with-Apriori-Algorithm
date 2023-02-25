@@ -6,13 +6,15 @@ Consequent:A consequent is an item or set of items found in combination with the
 
 With the help of the Apriori Algorithm, we can further classify and simplify the item sets that the consumer frequently buys. There are three components in APRIORI ALGORITHM:
 
-SUPPORT
-CONFIDENCE
-LIFT
+1) SUPPORT.
+2) CONFIDENCE.
+3) LIFT.
 
 SUPPORT
 It has been calculated with the number of transactions divided by the total number of transactions made.
+
 CONFIDENCE
 Whether the product sales are popular on individual sales or through combined sales has been calculated. That is calculated with combined transactions/individual transactions.
+
 LIFT
 Lift is calculated for knowing the ratio for the sales.When the Lift value is below 1, the combination is not so frequently bought by consumers. But in this case, it shows that the probability of buying both the things together is high when compared to the transaction for the individual items sold.
